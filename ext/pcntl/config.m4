@@ -1,6 +1,6 @@
 PHP_ARG_ENABLE([pcntl],
   [whether to enable pcntl support],
-  [AS_HELP_STRING([--enable-pcntl],
+  [AS_HELP_STRING([--enable-pcntl=shared],
     [Enable pcntl support (CLI/CGI only)])])
 
 if test "$PHP_PCNTL" != "no"; then
